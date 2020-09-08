@@ -1,0 +1,22 @@
+{
+  "name": "sample-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorian-test/sample-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorian-test/sample-node/issues"
+  },
+  "homepage": "https://github.com/dorian-test/sample-node#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
