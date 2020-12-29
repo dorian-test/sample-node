@@ -1,3 +1,7 @@
+function yell() {
+  return ":O"
+}
+
 function happy() {
   return ":)";
 }
@@ -13,4 +17,5 @@ function laugh() {
 module.exports = {
   happy: happy,
   sad: sad,
+  yell: yell
 };
