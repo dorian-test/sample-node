@@ -14,6 +14,10 @@ function laugh() {
   return "xD"
 }
 
+function cry() {
+  return ":'("
+}
+
 module.exports = {
   happy: happy,
   sad: sad,
