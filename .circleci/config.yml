@@ -1,0 +1,16 @@
+version: 2.1
+
+workflows:
+  main:
+    jobs:
+      - test
+
+jobs:
+  test:
+    docker:
+      - image: circleci/python:3.8
+    steps:
+      - checkout
+      - run:
+          command: ls
+          name: Hello world
